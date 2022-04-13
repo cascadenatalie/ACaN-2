@@ -64,6 +64,13 @@ namespace ACaN2
                 MatchType = OrdinalFieldMatchType.LessThanOrEquals
             };
 
+            DateFieldCriterion denialDateOlderThan30Days = new DateFieldCriterion
+            {
+                FieldName = "Fields.DENIAL.X69",
+                Value = DateTime.Today.AddDays(-30),
+                MatchType = OrdinalFieldMatchType.LessThan
+            };
+
             StringFieldCriterion testLoanIsNotY = new StringFieldCriterion
             {
                 FieldName = "Fields.CX.GLOBAL.TESTLOAN",
@@ -131,6 +138,7 @@ namespace ACaN2
             acanCri = CancelRequested
                 .And(notCancelCompleted)
                 .And(botRunDateMetorExceeded)
+                .And(denialDateOlderThan30Days)
                 .And(testLoanIsNotY)
                 .And(creditPlusInfoProvided)
                 .And(cancellationReasonSelected)
