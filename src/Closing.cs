@@ -30,7 +30,7 @@ namespace ACaN2
         }
         private static void UpdateAndCloseSessionLog()
         {
-            SessionLog.sessionLog.WriteLine($"ACaN Session End Time {DateTime.Now.ToString()}\nSuccessfully updated {ACaN.updatedCount} Loans. Remaining ACaN Loan Count: {Prep.remainingACaNLoans.Count}");
+            SessionLog.sessionLog.WriteLine($"ACaN2 Session End Time {DateTime.Now.ToString()}\nSuccessfully updated {ACaN.updatedCount} Loans. Remaining ACaN Loan Count: {Prep.remainingACaNLoans.Count}");
             SessionLog.sessionLog.WriteLine("");
             SessionLog.sessionLog.Close();
         }

@@ -101,8 +101,8 @@ namespace ACaN2
         private static void LoanSaveAndClose()
         {
             Console.WriteLine("Saving and closing the loan....");
-            //loan.Commit();
-            //loan.Unlock();
+            loan.Commit();
+            loan.Unlock();
             loan.Close();
         }
         private static void GenerateDocuments()
@@ -118,7 +118,7 @@ namespace ACaN2
                     GenerateNOAs.GenerateNOAPackages();
                 }
                 Console.WriteLine("Done");
-                //SendToDocutech();
+                SendToDocutech();
 
             }
             else

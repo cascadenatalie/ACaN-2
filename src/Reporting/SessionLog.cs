@@ -19,12 +19,12 @@ namespace ACaN2
                 {
                     sessionLog = new StreamWriter(acanLog, true);
                     sessionLog.AutoFlush = true;
-                    sessionLog.WriteLine($"ACaN Session Start Time {DateTime.Now.ToString()}\nLoan Count: {Prep.acanLoanCount}");
+                    sessionLog.WriteLine($"ACaN2 Session Start Time {DateTime.Now.ToString()}\nLoan Count: {Prep.acanLoanCount}");
                     break;
                 }
                 catch (Exception al)
                 {
-                    Console.WriteLine($"Failed to make ACaN Log, {al.Message}\n{al.InnerException}");
+                    Console.WriteLine($"Failed to make ACaN2 Log, {al.Message}\n{al.InnerException}");
                     Console.ReadLine();
                     if (++count == maxTries)
                     {

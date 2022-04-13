@@ -45,9 +45,11 @@ namespace ACaN2
                     sodFields.SetField("4002", $"{ACaN.loan.Fields["4002"].GetValueForBorrowerPair(ACaN.Pair)}");
                     sodFields.SetField("LoanNum364", $"{ACaN.loan.Fields["364"].GetValueForBorrowerPair(ACaN.Pair)}");
                     sodFields.SetField("CoBorrName", $"{ACaN.loan.Fields["4004"].GetValueForBorrowerPair(ACaN.Pair)} {ACaN.loan.Fields["4006"].GetValueForBorrowerPair(ACaN.Pair)}");
+                    sodFields.SetField("CoBorrNameComma", $"{ACaN.loan.Fields["4004"].GetValueForBorrowerPair(ACaN.Pair)} {ACaN.loan.Fields["4006"].GetValueForBorrowerPair(ACaN.Pair)},");
                     sodFields.SetField("MailingAddress", $"{coBorrMailingAddress}");
                     sodFields.SetField("LoanTeamMember.Name.Loan Officer", $"{ACaN.loan.Fields["LoanTeamMember.Name.Loan Officer"].GetValueForBorrowerPair(ACaN.Pair)}");
                     sodFields.SetField("LoanTeamMember.Phone.Loan Officer", $"{ACaN.loan.Fields["LoanTeamMember.Phone.Loan Officer"].GetValueForBorrowerPair(ACaN.Pair)}");
+                    sodFields.SetField("LoanTeamMember.Phone.Loan OfficerPeriod", $"{ACaN.loan.Fields["LoanTeamMember.Phone.Loan Officer"].GetValueForBorrowerPair(ACaN.Pair)}.");
                     sodFields.SetField("3238", $"{ACaN.loan.Fields["3238"].GetValueForBorrowerPair(ACaN.Pair)}");
                     sodFields.SetField("MailedOnDate", $"{DateTime.Now.ToString("MM/dd/yyyy")}");
                     #endregion
