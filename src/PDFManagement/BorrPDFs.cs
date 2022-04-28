@@ -23,10 +23,12 @@ namespace ACaN2
 
         public static void GenerateBorrTempPackage()
         {
+            Console.WriteLine("Generating Temp Packages");
             PrintTempSOD();
             PrintBorrTempH5Eq();
             PrintBorrTempH5Ex();
             PrintBorrTempH5TU();
+            Console.WriteLine("Done");
         }
         private static void PrintTempSOD()
         {

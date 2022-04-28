@@ -35,11 +35,12 @@ namespace ACaN2
         }
         private static string SetBorrDocumentName()
         {
-            _borrDocName = $"{ACaN.loan.Fields["4000"]} {ACaN.loan.Fields["4002"]} - NOA Package";
+            _borrDocName = $"{ACaN.loan.Fields["4000"].GetValueForBorrowerPair(ACaN.Pair)} {ACaN.loan.Fields["4002"].GetValueForBorrowerPair(ACaN.Pair)} - NOA Package";
             return _borrDocName;
         }
         private static void BorrowerNOAPackageToEFolder()
         {
+            Console.WriteLine("Uploading Borr Package to eFolder...");
             try
             {
                 SetBorrDocumentName();
@@ -50,6 +51,7 @@ namespace ACaN2
                     : ACaN.loan.Log.TrackedDocuments.Add("Statement of Denial", ACaN.loan.Log.MilestoneEvents.NextEvent.MilestoneName);
                 attachment.Title = _borrDocName;
                 document.Attach(attachment);
+                Console.WriteLine("Upload to eFolder Done");
             }
             catch (Exception e)
             {
@@ -57,11 +59,12 @@ namespace ACaN2
                 Console.ReadLine();
                 Environment.Exit(99);
             }
+            
         }
 
         private static string SetCoBorrDocumentName()
         {
-            _coBorrDocName = $"{ACaN.loan.Fields["4004"]} {ACaN.loan.Fields["4006"]} - NOA Package";
+            _coBorrDocName = $"{ACaN.loan.Fields["4004"].GetValueForBorrowerPair(ACaN.Pair)} {ACaN.loan.Fields["4006"].GetValueForBorrowerPair(ACaN.Pair)} - NOA Package";
             return _coBorrDocName;
         }
         private static void CoBorrowerNOAPackageToEFolder()

@@ -39,5 +39,8 @@ namespace ACaN2
 
         //Final Folder Location
         public static string FinalDestinationPath = ConfigurationManager.AppSettings["FinalDestinationPath"];
+
+        //iText Key Location
+        public static string iTextKeyPath = @".\Keys\iTextKey.json";
     }
 }

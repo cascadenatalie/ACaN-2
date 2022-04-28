@@ -1,4 +1,5 @@
-﻿
+﻿using iText.Licensing.Base;
+using System.IO;
 
 namespace ACaN2
 {
@@ -6,6 +7,8 @@ namespace ACaN2
     {
         static void Main(string[] args)
         {
+            LicenseKey.LoadLicenseFile(new FileInfo(Resources.iTextKeyPath));
+
             new EllieMae.Encompass.Runtime.RuntimeServices().Initialize();
             var encompassSession = new EncompassSession();
             var acan = new ACaN();

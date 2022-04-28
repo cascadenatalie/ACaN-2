@@ -54,8 +54,8 @@
     <Reference Include="itext.barcodes, Version=7.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>packages\itext7.7.2.1\lib\net461\itext.barcodes.dll</HintPath>
     </Reference>
-    <Reference Include="itext.commons, Version=7.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
-      <HintPath>packages\itext7.commons.7.2.1\lib\net461\itext.commons.dll</HintPath>
+    <Reference Include="itext.commons, Version=7.2.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext7.commons.7.2.2\lib\net461\itext.commons.dll</HintPath>
     </Reference>
     <Reference Include="itext.forms, Version=7.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>packages\itext7.7.2.1\lib\net461\itext.forms.dll</HintPath>
@@ -68,6 +68,9 @@
     </Reference>
     <Reference Include="itext.layout, Version=7.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>packages\itext7.7.2.1\lib\net461\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.licensing.base, Version=4.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.licensing.base.4.0.2\lib\net461\itext.licensing.base.dll</HintPath>
     </Reference>
     <Reference Include="itext.pdfa, Version=7.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>packages\itext7.7.2.1\lib\net461\itext.pdfa.dll</HintPath>
@@ -184,6 +187,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="Keys\iTextKey.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Resources\BorrH5Equifax.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

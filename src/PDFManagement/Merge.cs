@@ -24,6 +24,7 @@ namespace ACaN2
         //Borrower
         public static void MergeBorrTempDocuments()
         {
+            Console.WriteLine("Merging Borr Packages");
             try
             {
                 PdfDocument pdf = null;
@@ -74,6 +75,8 @@ namespace ACaN2
                 File.Delete(borrH5EqOutput);
                 File.Delete(borrH5ExpOutput);
                 File.Delete(borrH5TUOutput);
+
+                Console.WriteLine("Merging Done");
             }
             catch (Exception b)
             {
@@ -81,6 +84,7 @@ namespace ACaN2
                 Console.ReadLine();
                 Environment.Exit(99);
             }
+            
         }
         private static string SetBorrFileName()
         {

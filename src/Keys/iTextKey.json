@@ -1,0 +1,246 @@
+[
+  {
+    "product": "itext-core",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 7,
+      "minor": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "KunlB96lyKyaYrHvFTyzuMgGJleb4IGurpH5wukQxD8tOEktcQuwISNk773fZwtc6EAi3n6zg/RRPPS3GIfDf9LVKiptFxVCMz2tXtOiDYoMqnKez4a+MAsLV/bF9EuCDW6Syf8sxMZznkdVVMfYe477QnvFSC9cQjoE5+umsmhnRe+K2mEktcoSa9gPx+sQZa0HvGJSFNNpzbS5WiRx2KWM3EvhsRPTY3Z6utsXlaN8EkoreRMj+aQWU/WAYx5J+WYHxP29Jwab+8P1UShlbcKDJWY4doVdWqdgtit7bAS4nl/UAvOe9KeyhTPxbw8x6bE91wpeoqo6YRnmBBIxvaz5xqHZDsETRoze55Kl3HpB1kC9lt5WgJM5HKdfWy1HZD6XxHEQhlOoxchzQOWD47s9DFQoAcN72H8NzVb52MqGmrzKjLPrJomkyQhdRTN5A1FptYDnL5KmtkuuD+bB6LNZ2KHN3U61UWUpYjlMn5ipqaISpeN6faXqOaigczRp3Uyw0fpZw9w2BVfVjmTexuyYbIFga0ygWnxzqW8vC1Kvom10zsXchOtntj/SI7GeWXx5Wib0JdR7kE1jlK8CKCgHKF7LY8bibBMbdWNc5hWqtYAQc7mKFFD7zxiyWbpeuW5y7N0IRe5tpdgX+sd+Mu+WD2hjs2UA3GyLehtsC04="
+  },
+  {
+    "product": "pdfXfa",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "ZZUpFeHobxqXGrtx60RsrxeBw6BjqdXQE+YW1Qfz1Y8GWHiqey5eBKhxKRPN4tF/5sC3G7O/ZdTkivJRK+hBZg16gRm24h4ZpSvZ9mpgadIk1XEaHU0itkk3+m+N/cJtW39lfX1UD5oNi9fXyEUxM02kWwYuZzDzOLGA7QlM5MijBH+ZbJoFwfiyiXZKD5v6Z1YE/05J4Q1oyvlrwPW40taGDEaNjQ2VQ+04lsWpy36/SpQdrL1/3u2SEq1SJMIXprhUdiSpqZvNqPtqwr4foA1ZJP21B4Nt+nxB12/xDgomKyWTpsGTwZyv65ULFiiwEuXF8B6SkFaWU12Qvp4YBpMafaQHn1LGwjkTJpZepK5HJm9OrLZ+WaAKHDJFPQILlnfpt+hZJwhmrgAiZdGiRf7AQtcW1XgypYCvgabqQ/e6C9e4WJiGcjFXAcPfRT2z42UNh7See7jqzViCbk9/JmCkK/jZyB1NNMRmJly4GpOj0mJsJZ45+6NLLd99gv2PMYUeZk4jd18TwLxAFy4Ydrr1qD+rOjXlQpt9KxuNhW+ggq/Z8wCYlKA/ILa5wb637jR/vDf4zyXlh3Bj/bQIdRKnYQovVR0KQU9Jt787gYJKyDqZ4uF6PbtvL2JdT3Hq8wYTG2sJ84l37ziu4okDQSRotquLYl8eJaKg0cbK7Qc="
+  },
+  {
+    "product": "pdfSweep",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "Gb+SYIp4zFL4YQNglR7c+MNSsAshma+RhiOjR6H4hZxRTwikyMPkUzlbgZtDwZLNTFL+4OSmLCRCewZzQfopB3EFZTHwggkJzx5uBLJU+D0hbNYiVe4b+xjWkt8kXDEpP8dKkgGIr247PMQKgboTJqU8NCLB2V8RV6s1Cg+3/zUlY1hSpItYCgJNiJqU9UuRzmIfBLHU5hJokOsM2b6v7gJBxzqXx3MHw/6/VnpNvcp5/iTt2Y3dZ/TbfcamucTvaRrRWDgl2es7lFPQISyM6a0OdnPBA+pIrH1FHcERYr+ZSDSktKiUih3hsb9qV7UEDhfNTfxKYk6UyUuyjNAkMr06a8mFJC9q6ncmL1xBckQCqILP+u7pPo/qae34a6WkuppFOgtRkY+AEY4VdoAjiYLT27tqcyQy0GSY4pzvWGtRSirVwohmUgPz453fUAF9Ebnnik+yEY817D1rT6CPlMMqLNBEffFjxrK6G2NwYGi4AMgjo4/eSE4epl6dsqSWwL+XQ2xEB09VXga0ZQTx989IN+8uw8ZxzEdXBF2albfIw31m5FmJmxEhEJbcuHFrMA1UbpfAcoJfUM+mitF6fhzedNmoZx1Sj7nUnGQ15Y6fyPcLgSBY3y+UZWNPdtXx7luPcRZDoclNOOCq2Co4EqmPI3CvfkRrWIa+eE56J2w="
+  },
+  {
+    "product": "pdfRender",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "ZftN65of58j3wGMdfTm44HPcEM7WzGfX+9jJMXAe+CmapQGCmSURqetcZJto81/vuEpDG3zmE1pCFH0N110N5Tc/24jZBkd0j8dK41DpseqQg3d7Uh77UlmahVXlwgR5GeAWoZmucOTP5+mTIt3KUme8S1DZ9qRtJQVavSNNW0tKw4zosiQtsSzgpuN4ognwM+evdwykKOSBsRg6zvV24E5qx1lEvPphcyex5Z6I3/7MtgInRxkkwH1NWNg0fgH/wpK0lnFEudBbEnYQ/GS1pyxeABuroN3tB/GlM9gZfsjH+qbvmWDdsrVOlQY0UU4DhexxuMH4Wq4vkRZMfrPBoew+WOE5RRrYfeypGBOkmV6aniHidl6J5uGOP09MT3dSvuEh9c4Ez45TiMfU+HX6sEpf2ld9rb2/SDeUhLcIdyxYNiUSQIR3tHwfvmSHEYNmRcq6HOTY3aZd/TGVuZ7MET7jJLeRhYev2YWagzwVBh3sF8CM66WMryroCVcr5+dzVEvkqF+wlggsWRlUfAM+ffML6Kba+Z7wyWLDqdyTqlUYw9q6MwXYk6DA2ucHwVZ1JOQUi5LwNozpKyBSGmftvC6sjX2vjR6kSTZMqvKhyF0q+m9TJ3Ryaoh8IjcpZovk0F4ZY6iLdqufj4hp+WZmjjbLE1yzGfH8AOmEUErAtos="
+  },
+  {
+    "product": "pdfOcr-tesseract4",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "kUi6CFVRY7yriGlx4lyKYa9FFh4Hz4BSVRKiD5tR96yAMhRenatLTxfl3mrFp3EiX/9Ffb+n8ivam2xejx5uqh1i8jFW5NJQETQeFCCzlBtvE3jZjJSMrq/XbP7/wz/sdc8kgLekAzJbbXzPbvP90cnBF2BkpdylV115D/tmVp2riQ4aEJFPugM5FIXCLo0SeZXfetgur35IB8oifc+4Dp9QYa16Swftx8FMEUKuCT6/kc+9+o8KaoQ3UIvmeR5DJ6c7UOqmB+DvlKnUCc8KlwsMJyaZmEQ/RnLr7jvioS3G3DyfOD9IDtUNTs4W3MtPAxmayD5aOIT9EhT1/gvgFVX52HLyOrN7fxZ7NU0iHegNrGv5nv5Zs/7aS64LxFSA03UEbs4lQ/EoZ2GncEYw2LFEr8cfqUkGpOXBQGhVaxrqCHmaYU51Rhdoo068DQZZ8z+66fWcnxzMkfgXf0FVllJyVdzw3lVmTeIRVv1BCDq8HUvZqqzuwnArkp/NZe2u3xc+EiTiLV9dLdy7YSynRry7bwIGbMTPDxnAfEBer9p+pb2PsT4+pW5Li9KIarIC+eGPzDdI+dLoXjpnFBDP0nCNqK4TqCyGZcpNMr+FxgF1D/X61z9/3r4s2YiqRhgV3nzAzVlnHzUo1Wc0iGJO5crQ0hxre7A3lAkSyWDJHAs="
+  },
+  {
+    "product": "pdfOptimizer",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "aHGz1HNuwajEIuip1JkOnMUZZPpufdxLSFKAa3CXFIHB1ErJqGtR/WlfDwIQTX/1kButR8wJAm96ChIn7hoDp6OR2MuVJm4og/szAGLPVrrvcWZQNJd98kLNLryCH7JLJpClaR2Tu/LJQpiwspCYS8Kzo4RjUl73uvZZfYrE0Zpuef4iEJnQxOhdavzPUOFZD02Y+Xxp68GN7ZlbqsSov3FucjAXvJY4maUisVGD8C5K2r+27Goea4C5EyRggfTh1KTGoDnVILOlOBoDlfO2SOe4jCs9X2DSk5LZVxAj9vya9fzHhWcN3zsgoeEQFpw3D/UXk7fhnSzaLQH8b1eqA1AovHg7KMMTg8ecu40Th2a7D5x/ecV8ggwY0wdekVVBk6lvCpXkLyGnwYBCmDkeKoagL1OhEbf7zpFOnoGInVLPcSiq7s8YiNUvlL4QpbInm9o8pAEIRku4QHfvAmyJMPWBaJKp1umd2rnhqh9EeKvM/qnTeuTZgC2iT57aC++rR3U8gngKskPKCULV4UxHCOBqerwTkhe4NatKOJHyoBpmn+lRYvZduv+j9kV6yX0H5yCE9zRUUZiGnwJdTtr+3LYohVBQHjhbpcIqDcrxQQ28Mb/+yT0yOj6obtiCqWTQ6wQJgH+6Yb7avy1CjJnAyD2OBUooii8HL22Q9TJi6CY="
+  },
+  {
+    "product": "pdfHtml",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 4
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "bP4+IEenvnBcZHmLM9rIf3N+csiVZRvQC+Wlqf8ivuR0dK8mS7knJlHjnHVIbTzoAVzchvV7Cl0cf+y4V3tFxaluT96tn9opskZ4bOxUXgRdz6J40hi8iaMR37Y6a2fYJGEeJv1a7h5/TWYW8iGu6990UFynVSsEHpEvmFpW1KTsK99Pkcw6rUEpDg60fjRtcp5+F/6T6YU2YjMpAi+SDNa/0Trfh354R7FU/xHEZ2+wIZ9Iq1nxgSlUMqv5XinJNgX0qaInbZ80VnJJ2ytOETdpNx+Yda2bPsTyJwaXEHFWaSVTbgm7mvjajRPWq94LBMs83kKqcBvQguXN7M3l32PqEyao6hh19kuegstpBzHbSku0Lo7wh43tL3SFEiWIwnHKBeCu8f/3PVPo/RZSl4XoMammnubffZfwaDaZx4lB4U+osA9Ze2i+Vck6BqRfHDhGT3ktHe/Qq7KCSQ4+9VJrsNh1GkQiEvf8cOGXQtYlTzyehvuh7lP1VRF2NvTUK7ze/Utvgm0cRbnQ8I+LQg9bL8YiR4eXuAFn/C8dI8Hq7teEW0Z7hptXn3kHpFZzfjvlvFhulnOmeJnYhxQMO2cmvBlACZpdNjZBnpgT+f5GV1/0YPi658befJTS93k+6WQYAedMHx8HxHuiudRTVNWbUuaaG46Y7sjCBtirvFY="
+  },
+  {
+    "product": "pdfCalligraph",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "VJFbQJHuXY4siLF9rYV3AusvKpzj9lHVKgCkJ4lb+zWS0sdfPJ6JcAE984bPumX+c3J44d3y8nm7Xo6M/jnEEK/++MWJx19eteeBf4mtAAn0Jt/AB7K7DuEWlziOQGr2jNDy8nl3GaESm0L0zExhQ6AxQvpNLM7Rd9ecT8vdJn/MWTJFiKFYn3Ae3Q7wQWYdoDsUqN6r75lGhq0uq72NM2z/P/6zC0hQo14e8/CtQRI/Hj/WgilwZvDBdwITFs/qnnhytf/frvFspHm96fYkun16GE3AWiHhyNyFxcEHd4BFTzoPDhccjEb1O/GsCOD0XLudtTY9JsQYkFchNNhof0J3rPRgA+n0FjqRh+u2I+U0ktrodby9SzaOW7UCQc8HMTgdZecBVgM38gyb3D1SPAOKiCOUYuDFFYTUHSd3zuqKXUA6ZXVstd2t0YJvdASAXP1lgl3iJK1abdRZdOsIap8aaWXnJiKySDXU+UDc5V0ofR0uToEFkJfyZs/QUPZU6bagqCUheNMXMMIvxkeKxs/ykSXDPeXlXjjw+AXbrVrRN0ySQlptG32uxHt4WNf15oK0gKoS0OElzh1gr+nAtKyNX//TWv6MWOsCUJeivUnGNDuUPNstvCOEZpb3ywjGq68ITdjRNG9V7huUxlWliMCXrzhvO1/OnSRHJqqK+I4="
+  },
+  {
+    "product": "pdfOffice",
+    "licensee": {
+      "company": "Cascade Financial Services",
+      "name": "Wenyang Yao",
+      "email": "wenyang@cascadeloans.com"
+    },
+    "key": "a9618da34b3e5d3d3b2d078e2af82b927bf75fcad265a0e9375efc002cce67ea",
+    "creationDate": "2022-04-26",
+    "expirationDate": "2022-05-26",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "NZPIjsXUgVAc/S/u5a1hlBm7L7dTNQxEI/aBX32TcP+sv0ZjxJLgnUe7Lzcxvp7HBoQ164n1gPgZ4Y71JkuP0Dcvw1wBMP7yB0zhZTA9fSIeiQaJjDNkx+aPEC8fmBu6qQOpj4wihDEmIjA2027tRyMq3dqqH+EJ6eOz3QnK5SW4/AwzrVk4A1HtMYUWW5G2RReocYs5cLdmHf6l6teB8xEyrYO7lfrriD+9/ByjOyFxW9UqS9Hr26MGfgdETpotoxsFXI9BK5wDQPLgbJ4paGQK4B5cYdpuQfvRrk7kgHjISbHnH06eKlpWj/o4VQS3STnpfOvPGSDdJzOcWKZyYzGox4cWvQL1MvWgPC+ZAgp5Yv8PnZ1rZpX3RpVQ4BsTzBcCQihcLqCOncWodtw7crAaY1ClsytNs4c74vOhc728IEKbVeqruNt2TTYamoCYDESdQLzXH+KXh+6CP0Bra3uZivGQ1pS4cfnbH6HflDqhYnJZ9NrOymD2IlMC5JxRbVaQTbJ/fEVAocDyESWTIzsEN0yg3dcHDPzjgFBpKmu02BdhX8uD7K/KS8LXNGAPKCbk9EgzqzKa3dilqTPcZssQsZxhc0Kov2/VIFexG86uhdk0ZAqcPeYYCHzEhYVtEL7qiVPwvXFuEhmtOUKqG1kAczs9OcSURvD3vc6DxMk="
+  }
+]
