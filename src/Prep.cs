@@ -102,9 +102,9 @@ namespace ACaN2
                 Include = false
             };
 
-            DateFieldCriterion uwInitialSubmissionNotBlank = new DateFieldCriterion
+            DateFieldCriterion appDateNotBlank = new DateFieldCriterion
             {
-                FieldName = "Fields.CX.DB.UWCL.INITIAL.SUB.DATE",
+                FieldName = "Fields.745",
                 Value = DateFieldCriterion.NonEmptyDate,
                 MatchType = OrdinalFieldMatchType.Equals,
             };
@@ -150,7 +150,7 @@ namespace ACaN2
                 .And(creditPlusInfoProvided)
                 .And(cancellationReasonSelected)
                 .And(loIsNotBlank)
-                .And(uwInitialSubmissionNotBlank);
+                .And(appDateNotBlank);
                 //.And(noEmptyBorrPairs)
                 //.And((validCurrentAddress)
                 //.Or(validMailingAddress));
