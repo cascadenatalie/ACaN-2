@@ -118,7 +118,7 @@ namespace ACaN2
                     GenerateNOAs.GenerateNOAPackages();
                 }
                 Console.WriteLine("Done");
-                SendToDocutech();
+                ////SendToDocutech();
 
             }
             else
@@ -182,9 +182,9 @@ namespace ACaN2
         }
         private static void UpdateLoan()
         {
-            CompleteCancellation();
+            ////CompleteCancellation();
             UpdateConversationLog();
-            MoveToApplicableFolder();
+            ////MoveToApplicableFolder();
             UpdateReportText();
         }
         private static void UpdateReportText()

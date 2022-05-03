@@ -125,27 +125,35 @@ namespace ACaN2
             //};
 
 
-            //StringFieldCriterion testLoan1 = new StringFieldCriterion
-            //{
-            //    FieldName = "FIELDS.364",
-            //    Value = "2105820",
-            //    MatchType = StringFieldMatchType.Exact,
-            //};
+            StringFieldCriterion testLoan1 = new StringFieldCriterion
+            {
+                FieldName = "FIELDS.364",
+                Value = "2105820",
+                MatchType = StringFieldMatchType.Exact,
+            };
 
-            //acanCri = testLoan1;
+            StringFieldCriterion testLoan2 = new StringFieldCriterion
+            {
+                FieldName = "FIELDS.364",
+                Value = "2105820",
+                MatchType = StringFieldMatchType.Exact,
+            };
+
+            acanCri = testLoan1
+                .Or(testLoan2);
 
             //filters compiled
-            acanCri = CancelRequested
-                .And(notCancelCompleted)
-                .And(botRunDateMetorExceeded)
-                .And(denialDateOlderThan30Days)
-                .And(testLoanIsNotY)
-                .And(creditPlusInfoProvided)
-                .And(cancellationReasonSelected)
-                .And(loIsNotBlank);
-                //.And(noEmptyBorrPairs)
-                //.And((validCurrentAddress)
-                //.Or(validMailingAddress));
+            //acanCri = CancelRequested
+            //    .And(notCancelCompleted)
+            //    .And(botRunDateMetorExceeded)
+            //    .And(denialDateOlderThan30Days)
+            //    .And(testLoanIsNotY)
+            //    .And(creditPlusInfoProvided)
+            //    .And(cancellationReasonSelected)
+            //    .And(loIsNotBlank);
+            //.And(noEmptyBorrPairs)
+            //.And((validCurrentAddress)
+            //.Or(validMailingAddress));
 
             //sort criteria
             acanCriSortBy = new SortCriterionList();
