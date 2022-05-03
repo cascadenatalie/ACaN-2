@@ -102,6 +102,13 @@ namespace ACaN2
                 Include = false
             };
 
+            DateFieldCriterion uwInitialSubmissionNotBlank = new DateFieldCriterion
+            {
+                FieldName = "Fields.CX.DB.UWCL.INITIAL.SUB.DATE",
+                Value = DateFieldCriterion.NonEmptyDate,
+                MatchType = OrdinalFieldMatchType.Equals,
+            };
+
             //StringFieldCriterion noEmptyBorrPairs = new StringFieldCriterion
             //{
             //    FieldName = "FIELDS.CX.EMPTY.BORR.PAIR.DETECTED",
@@ -142,14 +149,15 @@ namespace ACaN2
                 .And(testLoanIsNotY)
                 .And(creditPlusInfoProvided)
                 .And(cancellationReasonSelected)
-                .And(loIsNotBlank);
+                .And(loIsNotBlank)
+                .And(uwInitialSubmissionNotBlank);
                 //.And(noEmptyBorrPairs)
                 //.And((validCurrentAddress)
                 //.Or(validMailingAddress));
 
             //sort criteria
             acanCriSortBy = new SortCriterionList();
-            acanCriSortBy.Add(new SortCriterion("Fields.CX.CANREQ.NOABOTRUN.DATE", SortOrder.Descending));
+            acanCriSortBy.Add(new SortCriterion("Fields.745", SortOrder.Descending));
         }
 
         private static void ACaNFields()
@@ -162,6 +170,7 @@ namespace ACaN2
             acanLoans.Add("Fields.CX.GLOBAL.UDNACTIVATE");
             acanLoans.Add("Fields.CX.CCS.BORROWER.CONDITIONS");
             acanLoans.Add("Fields.CX.CANREQ.NOABOTRUN.DATE");
+            acanLoans.Add("Fields.745");
         }
 
         private static void SetCursor()
