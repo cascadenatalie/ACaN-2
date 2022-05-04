@@ -102,27 +102,27 @@ namespace ACaN2
                 Include = false
             };
 
-            //StringFieldCriterion noEmptyBorrPairs = new StringFieldCriterion
-            //{
-            //    FieldName = "FIELDS.CX.EMPTY.BORR.PAIR.DETECTED",
-            //    Value = "Y",
-            //    MatchType = StringFieldMatchType.Exact,
-            //    Include = false
-            //};
+            StringFieldCriterion noEmptyBorrPairs = new StringFieldCriterion
+            {
+                FieldName = "FIELDS.CX.EMPTY.BORR.PAIR.DETECTED",
+                Value = "Y",
+                MatchType = StringFieldMatchType.Exact,
+                Include = false
+            };
 
-            //StringFieldCriterion validMailingAddress = new StringFieldCriterion
-            //{
-            //    FieldName = "FIELDS.CX.VALID.MAILINGADDRESS",
-            //    Value = "Y",
-            //    MatchType = StringFieldMatchType.Exact,
-            //};
+            StringFieldCriterion validMailingAddress = new StringFieldCriterion
+            {
+                FieldName = "FIELDS.CX.VALID.MAILINGADDRESS",
+                Value = "Y",
+                MatchType = StringFieldMatchType.Exact,
+            };
 
-            //StringFieldCriterion validCurrentAddress = new StringFieldCriterion
-            //{
-            //    FieldName = "FIELDS.CX.VALID.CURRENTADDRESS",
-            //    Value = "Y",
-            //    MatchType = StringFieldMatchType.Exact,
-            //};
+            StringFieldCriterion validCurrentAddress = new StringFieldCriterion
+            {
+                FieldName = "FIELDS.CX.VALID.CURRENTADDRESS",
+                Value = "Y",
+                MatchType = StringFieldMatchType.Exact,
+            };
 
 
             //StringFieldCriterion testLoan1 = new StringFieldCriterion
@@ -142,10 +142,10 @@ namespace ACaN2
                 .And(testLoanIsNotY)
                 .And(creditPlusInfoProvided)
                 .And(cancellationReasonSelected)
-                .And(loIsNotBlank);
-                //.And(noEmptyBorrPairs)
-                //.And((validCurrentAddress)
-                //.Or(validMailingAddress));
+                .And(loIsNotBlank)
+                .And(noEmptyBorrPairs)
+                .And(validCurrentAddress
+                .Or(validMailingAddress));
 
             //sort criteria
             acanCriSortBy = new SortCriterionList();
