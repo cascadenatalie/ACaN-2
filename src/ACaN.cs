@@ -223,7 +223,8 @@ namespace ACaN2
             return 
                 LoanMaintenance.CreditInfoMissing().Equals(false) &&
                 LoanMaintenance.NoEmptyBorrowerPairs() &&
-                LoanMaintenance.ValidAddress();
+                LoanMaintenance.ValidAddress()
+                LoanMaintenance.LOisNotBlank();
         }
 
         private static void SetLoanSkippedReason()
@@ -243,6 +244,10 @@ namespace ACaN2
             if(LoanMaintenance.ValidAddress().Equals(false))
             {
                 loanSkippedReason = "Valid Address Not Found";
+            }
+            if (LoanMaintenance.LOisNotBlank().Equals(false))
+            {
+                loanSkippedReason = "Loan Officer Not Found";
             }
         }
     }

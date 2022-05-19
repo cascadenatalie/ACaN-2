@@ -71,6 +71,13 @@ namespace ACaN2
                 MatchType = OrdinalFieldMatchType.LessThan
             };
 
+            DateFieldCriterion denialDateisEmpty = new DateFieldCriterion
+            {
+                FieldName = "Fields.DENIAL.X69",
+                Value = DateTime.MinValue,
+                MatchType = OrdinalFieldMatchType.Equals,
+            };
+
             StringFieldCriterion testLoanIsNotY = new StringFieldCriterion
             {
                 FieldName = "Fields.CX.GLOBAL.TESTLOAN",

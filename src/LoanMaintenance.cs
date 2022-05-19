@@ -211,5 +211,9 @@ namespace ACaN2
         {
             return (!ACaN.loan.Fields["CX.EMPTY.BORR.PAIR.DETECTED"].Value.Equals("Y"));
         }
+        public static bool LOisNotBlank()
+        {
+            return (!ACaN.loan.Fields["317"].Value.Equals(""));
+        }
     }
 }
