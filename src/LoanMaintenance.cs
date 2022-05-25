@@ -215,5 +215,43 @@ namespace ACaN2
         {
             return (!ACaN.loan.Fields["317"].Value.Equals(""));
         }
+        public static bool LOisValid()
+        {
+            return (ACaN.loan.Fields["317"].FormattedValue.Contains("McManus") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Krebs") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Nelles") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Denton") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Stakes") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("O'Connor") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Mauch") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Cummard") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("McKamy") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Brudnicki") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Sager") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Beanblossom") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Thompson") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Rabon") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("King") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Shaw") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Pomeroy") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Larivee") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Gould") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Jepsen") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Geiger") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Jensen") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Vigil") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Williams") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Govea") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Abrams") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Melzer") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Janis") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Nelson") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Almarji") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Barrineau") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Gustafson") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Salinas") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Gomez") ||
+                ACaN.loan.Fields["317"].FormattedValue.Contains("Torres"));
+        }
     }
 }

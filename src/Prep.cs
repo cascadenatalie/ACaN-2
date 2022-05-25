@@ -135,11 +135,11 @@ namespace ACaN2
             //StringFieldCriterion testLoan1 = new StringFieldCriterion
             //{
             //    FieldName = "FIELDS.364",
-            //    Value = "2105820",
+            //    Value = "2272957",
             //    MatchType = StringFieldMatchType.Exact,
             //};
 
-            //acanCri = testLoan1;
+            acanCri = testLoan1;
 
             //filters compiled
             acanCri = CancelRequested
