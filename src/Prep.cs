@@ -139,7 +139,7 @@ namespace ACaN2
             //    MatchType = StringFieldMatchType.Exact,
             //};
 
-            acanCri = testLoan1;
+            //acanCri = testLoan1;
 
             //filters compiled
             acanCri = CancelRequested
